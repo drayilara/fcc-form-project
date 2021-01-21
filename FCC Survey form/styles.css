@@ -1,0 +1,84 @@
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    background-image: url('team.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+
+.form-container{
+    background-color:rgba(0,0,63,0.8);
+    width:60%;
+    margin:0 auto;
+    padding:60px;
+    line-height: 2;
+    font-size:1.5rem;
+    border-radius:5px;
+    margin:150px;
+    margin-left:200px;
+    color:white;
+}
+
+.form-container:hover{
+    background-color:rgba(0,0,63,1);
+}
+
+.box{
+    width:717px;
+    height:30px;
+    border-radius:4px;
+}
+
+a{  display:inline-block;
+    width:722px;
+    background-color: #55b3b1;
+    text-align:center;
+    text-decoration-line: none;
+    color:white;
+    font-size:xx-large;
+}
+
+a:hover{
+    color:#f6c065;
+}
+
+/****Tablet media Querries******/
+
+@media screen and (max-width:1000px){
+    .box{
+        width:400px;
+    }
+
+    .table{
+        width:400px;
+    }
+
+    a{
+        width:400px;
+    }
+
+    .form-container{
+        margin-left: 80px;
+        padding:50px;
+}
+}
+
+/*******Phone Media queries******/
+@media screen and (max-width:500px){
+    .box{
+        width:200px;
+    }
+
+    .table{
+        width:200px;
+    }
+
+    a{
+        width:200px;
+    }
+
+    .form-container{
+        margin: 50px;
+        padding:50px;
+    }
+}
